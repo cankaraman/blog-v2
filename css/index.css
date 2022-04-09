@@ -6,6 +6,7 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --background: #f8f9fa;
 }
 
 /* Global stylesheet */
@@ -16,10 +17,11 @@
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto 0 auto;
+  max-width: 50em;
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--darkgray);
-  background-color: var(--white);
+  background-color: var(--background);
 }
 p:last-child {
   margin-bottom: 0;
@@ -27,7 +29,7 @@ p:last-child {
 p,
 .tmpl-post li,
 img {
-  max-width: 37.5em; /* 600px /16 */
+  max-width: 50em; /* 600px /16 */
 }
 p,
 .tmpl-post li {
