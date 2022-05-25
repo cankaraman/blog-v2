@@ -219,3 +219,23 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+.icon-container {
+display: flex;
+justify-content: space-around;
+/* max-width: 200px; */
+width: 200px;
+/* gap: 30px; */
+}
+
+.icon-line {
+width: 200px;
+/* display: block; */
+text-align: left;
+}
